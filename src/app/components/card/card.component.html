@@ -1,0 +1,37 @@
+<div
+  class="card"
+  [ngStyle]="{
+    'background-image':
+      'linear-gradient(to top, #ffffff 25% , transparent),url(' +
+      recipe.image +
+      ')'
+  }"
+  (mouseenter)="overCard()"
+  (mouseleave)="awayFromCard()"
+>
+  <div class="category">
+    {{ recipe.category ? "in " + recipe.category : "" }}
+  </div>
+  <div class="content">
+    <div class="name">
+      {{ recipe.name }}
+      <img src="assets/icons/feather-heart.png" />
+    </div>
+    <div class="description">
+      {{ recipe.description }}
+    </div>
+  </div>
+  <div class="actions" *ngIf="showButtons">
+    <button class="btn" (click)="detailsPage()">View More</button>
+    <button class="btn" (click)="popUpDetails()">Quick View</button>
+  </div>
+</div>
+
+<div class="popup" *ngIf="quickView">
+  <div class="popup-padding">
+    <app-details
+      [recipe]="recipe"
+      (closePopup)="closePopup($event)"
+    ></app-details>
+  </div>
+</div>

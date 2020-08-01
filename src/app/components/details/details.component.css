@@ -1,0 +1,60 @@
+.details-container {
+  display: flex;
+  background-color: lightgray;
+  flex-wrap: wrap;
+}
+
+.left,
+.right {
+  width: 45%;
+  margin: 20px;
+}
+
+.right {
+  text-align: right;
+}
+
+.image-holder img {
+  height: 400px;
+  width: 400px;
+  border-radius: 8px;
+}
+
+.image-holder {
+  position: relative;
+  border-radius: 8px;
+}
+
+.overlay {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+  background-image: url("/assets/icons/ionic-ios-play-circle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.btn {
+  height: 40px;
+  width: 125px;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #ffffff;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.name-header {
+  font-size: 32px;
+  font-family: "Metropolis-Bold";
+}

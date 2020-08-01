@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Metropolis-Light";
+  src: url("assets/fonts/Metropolis/Metropolis-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Metropolis-Bold";
+  src: url("assets/fonts/Metropolis/Metropolis-Bold.otf") format("opentype");
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+  font-family: "Metropolis-Light";
+  background-image: url("/assets/images/Illustration1.png"),
+    url("/assets/images/Illustration2.png"),
+    url("/assets/images/Illustration3.png"),
+    url("/assets/images/Illustration4.png"),
+    url("/assets/images/Illustration5.png");
+  background-position: right bottom, left top, left bottom, right top, center;
+  background-repeat: no-repeat;
+}

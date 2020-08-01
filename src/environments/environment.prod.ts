@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  recepeDetailsUrl: "http://starlord.hackerearth.com/recipe",
 };

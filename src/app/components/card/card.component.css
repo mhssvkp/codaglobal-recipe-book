@@ -1,0 +1,84 @@
+.card {
+  width: 250px;
+  height: 400px;
+  display: block;
+  border-radius: 8px;
+  margin: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+.card:hover {
+  background: rgba(0, 0, 0, 0.75) !important;
+}
+
+.name,
+.description {
+  color: #000000;
+}
+
+.category {
+  background-color: #000000;
+  color: #ffffff;
+  float: right;
+  padding: 10px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.name,
+.description {
+  align-self: flex-end;
+}
+
+.name {
+  font-family: "Metropolis-Bold";
+  margin: 10px 0;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  width: inherit;
+  padding-bottom: 20px;
+}
+
+.btn {
+  height: 40px;
+  width: 125px;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #ffffff;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.actions {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.popup-padding {
+  padding: 40px;
+}

@@ -1,0 +1,40 @@
+<div class="details">
+  <div class="back-btn">
+    <button class="btn" (click)="goBack()">
+      {{ isPopup ? "Close" : "Go back" }}
+    </button>
+  </div>
+  <div class="details-container">
+    <div class="left">
+      <div class="image-holder">
+        <img [src]="recipe.image" />
+        <div class="overlay"></div>
+      </div>
+      <div>
+        <h2>Ingredients</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, eum
+          nihil. Maiores quia accusamus, sapiente quis quae dolorum? Reiciendis
+          magni eveniet iure repellendus sint repellat, cupiditate recusandae
+          minima tempora facere.
+        </p>
+      </div>
+    </div>
+    <div class="right">
+      <div class="name-header">
+        {{ recipe.name }}
+      </div>
+      <div class="description">
+        <p>
+          {{ recipe.description }}
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum neque
+          ullam voluptatem, repudiandae voluptatum est cum tenetur quae ratione,
+          dicta vero! Unde sequi omnis consectetur harum hic vel aspernatur
+          explicabo.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
