@@ -36,10 +36,18 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
   cursor: pointer;
-  background-image: url("assets/icons/ionic-ios-play-circle.png");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 8px;
+  display: flex;
+}
+
+.overlay img {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  display: block;
+  margin: auto;
 }
 
 .btn {
