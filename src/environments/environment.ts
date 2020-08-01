@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  recepeDetailsUrl: "/assets/mock/recipes.json",
+  recepeDetailsUrl: "assets/mock/recipes.json",
 };
 
 /*

@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  recepeDetailsUrl: "/assets/mock/recipes.json",
+  recepeDetailsUrl: "assets/mock/recipes.json",
 };

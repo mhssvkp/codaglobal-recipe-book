@@ -36,7 +36,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
   cursor: pointer;
-  background-image: url("/assets/icons/ionic-ios-play-circle.png");
+  background-image: url("assets/icons/ionic-ios-play-circle.png");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 8px;
