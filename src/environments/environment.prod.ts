@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  recepeDetailsUrl: "http://starlord.hackerearth.com/recipe",
+  recepeDetailsUrl: "/assets/mock/recipes.json",
 };

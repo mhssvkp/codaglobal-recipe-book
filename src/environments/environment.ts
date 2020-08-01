@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  recepeDetailsUrl: "http://starlord.hackerearth.com/recipe",
+  recepeDetailsUrl: "/assets/mock/recipes.json",
 };
 
 /*
